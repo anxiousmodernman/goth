@@ -4,10 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/markbates/goth"
-	"github.com/markbates/goth/providers/auth0"
+	"github.com/anxiousmodernman/goth"
+	"github.com/anxiousmodernman/goth/providers/auth0"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/jarcoal/httpmock.v1"
 )
 
 func Test_New(t *testing.T) {

@@ -17,9 +17,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/anxiousmodernman/goth"
 	"github.com/gorilla/mux"
 	"github.com/gorilla/sessions"
-	"github.com/markbates/goth"
 )
 
 // SessionName is the key used to access the session store.
